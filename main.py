@@ -18,8 +18,7 @@ except ValueError as error:
     print("error:", error)
  
 try:
-    pen = Product("Pen", 7, 1)
-    shop.add(pen)
+    shop.add(Product("Pen", 7))
 except ValueError as error:
     print("error:", error)
  
